@@ -55,13 +55,16 @@ mkdir build
 cd build
 call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
 cmake .. -G "Visual Studio 17 2022" -A "x64" -DCMAKE_TOOLCHAIN_FILE=C:\tools\demo\vcpkg\scripts\buildsystems\vcpkg.cmake
-pause
 ```
 
+Успешные шаги выглядят так:
 
-```
->test_catch2.exe 
-Randomness seeded to: 2735848181
-=============================================================================== 
-All tests passed (4 assertions in 1 test case)
-```
+![](img/make_vcpkg_demo.gif)
+
+После конфигурации открываем в студии и собираем:
+
+![](img/OpenAndBuildSolution.png)
+
+Правой кнокой на проект **demoCatch2Vcpkg**, делаем активным проектом (он выделится жирным), запускаем тесты:
+
+![](img/test.png)
