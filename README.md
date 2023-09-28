@@ -1,9 +1,8 @@
-# DemoCatch2Vendoring
-
-Демонстрация установки и использования catch2 с использованием vcpkg. Есть отсылка в [официальном руководстве](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md#installing-catch2-from-vcpkg)
+Демонстрация установки и использования catch2 с использованием vcpkg. Есть отсылка в [официальном руководстве](https://github.com/catchorg/Catch2/blob/devel/docs/cmake-integration.md#installing-catch2-from-vcpkg). 
+Если ничего не получается, то есть [репозиторий с полным копированием catch2](https://github.com/antlas1/DemoCatch2Vendoring).
 
 ### Установка vcpkg
-Открываем консоль windows, переходим на путь, где будет лежать менеджер, например `C:\tools`. 
+Открываем консоль windows, переходим на путь, где будет лежать менеджер, например `C:\tools\demo`. 
 
 <details>
 <summary>Как открыть консоль, если есть проблемы</summary>
